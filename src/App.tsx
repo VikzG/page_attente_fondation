@@ -133,8 +133,10 @@ function App() {
               </div>
 
               <div className="flex justify-center">
-                <a href="contact@fondationdiakacamara.org"
-                  className="group relative w-full shadow-md bg-[#EBF0EE] hover:bg-[#0A4BA5] text-[#0A4BA5] hover:text-white rounded-full font-semibold text-lg flex items-center py-3 overflow-hidden transition-colors duration-500">
+                <a
+                  href="mailto:contact@fondationdiakacamara.org"
+                  className="group relative w-full shadow-md bg-[#EBF0EE] hover:bg-[#0A4BA5] text-[#0A4BA5] hover:text-white rounded-full font-semibold text-lg flex items-center py-3 overflow-hidden transition-colors duration-500"
+                >
                   <span className="flex-1 text-center font-bold">
                     <span className="block md:hidden">Contactez-nous</span>
                     <span className="hidden md:block">
