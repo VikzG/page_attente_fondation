@@ -93,7 +93,7 @@ function App() {
               />
               <h1 className="text-3xl md:text-6xl font-bold text-gray-800">
                 <div className="flex items-center justify-center space-x-4 mb-2">
-                  <span className="font-[beautique-display-bold] text-[#160A00]">
+                  <span className="font-beautiqueBold text-[#160A00]">
                     NOTRE SITE SE
                     <br /> REFAIT UNE BEAUTÉ
                   </span>
@@ -106,7 +106,7 @@ function App() {
               />
             </div>
 
-            <p className="font-[beautique-display] leading-[2rem] md:leading-[3.5rem] text-2xl md:text-5xl text-[#160A00] mb-16">
+            <p className="font-beautique leading-[2rem] md:leading-[3.5rem] text-2xl md:text-5xl text-[#160A00] mb-16">
               Rendez-vous prochainement pour découvrir nos actualités, ou
               soutenir nos actions.
             </p>
@@ -124,7 +124,7 @@ function App() {
           <div className="container mx-auto px-0 md:px-6">
             <div className="bg-white/80 backdrop-blur-sm rounded-none md:rounded-3xl p-8 md:p-14 mx-auto max-w-8xl border border-orange-100">
               <div className="text-center mb-8 text-[#160A00]">
-                <p className="body-mona text-md md:text-xl mb-2 leading-relaxed">
+                <p className="font-mona text-md md:text-xl mb-2 leading-relaxed">
                   Vous souhaitez soumettre un message à la Fondation,
                   <br />
                   ou découvrir tous les détails du <strong>Gala 2025</strong> en
