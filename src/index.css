@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'beautique-display';
+  src: url('./src/assets/fonts/BeautiqueDisplayCondensed-MediumItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'beautique-display-bold';
+  src: url('./src/assets/fonts/beautique-display-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes moveToTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-40vh);
+  }
+}
+
+.body-mona {
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+}
+
+
